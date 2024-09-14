@@ -1,14 +1,6 @@
 import pytest
 
-
-@pytest.fixture
-def numbers():
-    a = 1
-    b = 1
-    return [a,b]
-
-
 class TestApp:
     def test_addition(self, numbers):
-        res = a + b
+        res = 1 + 1
         assert res == 2
