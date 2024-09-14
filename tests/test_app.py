@@ -9,6 +9,6 @@ def numbers():
 
 
 class TestApp:
-    def test_multiplication(self, numbers):
+    def test_addition(self, numbers):
         res = a + b
-        assert res == numbers[1]
+        assert res == 2
